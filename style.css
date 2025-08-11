@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e67e22;
+    --background-color: #f5f6fa;
+    --text-color: #222f3e;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-accent {
+    background-color: var(--accent-color);
+    color: #fff;
+}
